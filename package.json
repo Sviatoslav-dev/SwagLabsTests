@@ -1,0 +1,22 @@
+{
+  "name": "swaglabstests",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio run wdio.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/cli": "^9.9.0",
+    "@wdio/local-runner": "^9.9.0",
+    "@wdio/mocha-framework": "^9.9.0",
+    "@wdio/selenium-standalone-service": "^8.14.0",
+    "@wdio/spec-reporter": "^9.9.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "webdriverio": "^9.9.0"
+  }
+}
